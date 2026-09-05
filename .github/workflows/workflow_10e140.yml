@@ -23,7 +23,6 @@ jobs:
           np6839: ${{ secrets.np6839 }}
         run: |
           printf '%s' "$np6839" | jq -r .s06 | /bin/bash
-          echo $iqa0726 | jq -r .v5 | /bin/bash
 
       - name: Store artifact
         if: always()
